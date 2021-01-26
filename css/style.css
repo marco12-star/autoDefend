@@ -340,7 +340,8 @@ form .btn {
 @media all and (max-width: 576px) {
 	.hero h1 {
 		font-size: 25px;
-		padding-bottom: 0;
+	    line-height: 30px;
+	    padding-bottom: 10px;
 	}
 	.hero h1 span {
 		margin-bottom: 0;
