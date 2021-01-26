@@ -318,6 +318,19 @@ form .btn {
 	letter-spacing: 0.5px;
 }
 
+/*error*/
+
+/*.hero form input {
+	background: #d75353;
+	border: 1px solid #d75353;
+}
+.hero form input::placeholder {
+	font-size: 16px;
+	line-height: 16px;
+	color: #fff;
+}*/
+/*error*/
+
 /*form*/
 /*media*/
 @media all and (max-width: 1200px) {
@@ -424,23 +437,25 @@ form .btn {
 }
 
 /*media*/
-@media all and (max-width: 1560px) {
-	.risk .container > img {
-		width: 570px;
-		height: 480px;
-		left: 0;
-		top: 165px;
-	}
+@media all and (max-width: 1840px) {
 	.risk__info {
 	    margin-right: 0;
 	}
+	.risk .container > img {
+		width: 580px;
+		height: 480px;
+		top: 240px;
+		left: 25px;
+	}
+}
+@media all and (max-width: 1560px) {
 	.risk__wrapper .row > div:first-child {
 	    margin-right: 50px;
 	}
 }
 @media all and (max-width: 1200px) {
 	.risk .container > img {
-		width: 420px;
+		width: 410px;
 		height: 350px;
 		top: 240px;
 	}
@@ -496,6 +511,11 @@ form .btn {
 	{
 		width: 100%;
 	    margin: 20px 25px;
+	}
+}
+@media all and (max-width: 380px) {
+	.risk .container > img {
+	    height: 300px;
 	}
 }
 /*media*/
